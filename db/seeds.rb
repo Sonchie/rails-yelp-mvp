@@ -12,32 +12,27 @@ restaurants_attributes = [
   {
     name:         'Dishoom',
     address:      '7 Boundary St, London E2 7JE',
-    description:  'Buzzy destination for Indian street food in Bombay-style vintage decor.',
-    stars:        5
+    category:     'italian'
   },
   {
     name:         'Pizza East',
     address:      '56A Shoreditch High St, London E1 6PQ',
-    description:  'Pizzeria with industrial looks, serving rustic pizza and antipasti.',
-    stars:        4
+    category:     'belgian'
   },
   {
     name:         'Burgers',
     address:      '17 Alphabet St, London E3 7JE',
-    description:  'Buzzy destination for Burgers street food in Burger-style vintage decor.',
-    stars:        5
+    category:     'french'
   },
   {
     name:         'Pizza West',
     address:      '560 West St, London E15 6PQ',
-    description:  'Pizzeria with Classic looks, serving classic pizza.',
-    stars:        4
+    category:     'italian'
   },
   {
     name:         'Burgers West',
-    address:      '560 West St, London E15 6PQ',
-    description:  'Pizzeria with Classic looks, serving classic pizza.',
-    stars:        4
+    address:      '56 West St, London E15 6PQ',
+    category:     'chinese'
   }
 ]
 Restaurant.create!(restaurants_attributes)
